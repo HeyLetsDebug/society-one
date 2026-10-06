@@ -18,3 +18,91 @@ footer{border-top:1px solid var(--line);background:#fff;padding:45px max(30px,ca
 @media(max-width:900px){.desktop-nav{display:none}.menu-btn{display:block;margin-left:auto}.mobile-menu.open{display:block}.home-grid,.split-card,.parking-layout,.breakup-layout,.update-layout,.maintenance-hero{grid-template-columns:1fr}.hero-visual{height:330px}.number-grid{grid-template-columns:repeat(2,1fr)}.metric-grid{grid-template-columns:repeat(2,1fr)}.flow-line{overflow:auto;justify-content:flex-start}.flow-line i{min-width:20px}.problem-toolbar{grid-template-columns:1fr 1fr}.problem-toolbar input{grid-column:1/-1}.problem-row{grid-template-columns:1fr auto;gap:5px 12px}.problem-row strong{grid-column:1/-1;grid-row:2}.problem-row>span:nth-child(3),.problem-row>span:nth-child(4){grid-row:3}.problem-row>span:nth-child(5){grid-column:2;grid-row:1}.problem-row>span:nth-child(6){grid-column:2;grid-row:3}.problem-row>span:nth-child(7),.problem-row>span:nth-child(8){display:none}.docs-layout{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr 1fr}.footer-brand{margin-bottom:5px}}
 @media(max-width:600px){.container{padding-left:18px;padding-right:18px}.nav-shell{height:68px}.brand{min-width:0}.section{padding:55px 0}.home-hero{padding:55px 0}.home-hero h1{font-size:43px}.hero-actions{flex-wrap:wrap}.quick-grid,.facility-grid,.gallery-grid,.event-grid,.contact-grid{grid-template-columns:1fr}.quick-tile{min-height:120px}.section-heading{align-items:flex-start;flex-direction:column;gap:5px}.section-heading h2{font-size:31px}.page-hero{padding:35px 0 42px}.page-hero h1{font-size:43px}.stats-row{gap:18px}.slot-grid{grid-template-columns:repeat(5,1fr);padding:10px}.slot{height:38px}.level-tabs{overflow:auto}.level-tabs button{min-width:70px}.metric-grid{grid-template-columns:1fr 1fr}.number-grid{grid-template-columns:1fr}.detail-grid{grid-template-columns:1fr 1fr}.modal-card{padding:22px}footer{grid-template-columns:1fr;padding:35px 18px}}
 .g1{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-project-large-image1.jpg?aio=w-724%3Bh-350%3Bcrop%3B")}.g2{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view1.jpg?aio=w-192%3Bh-168%3Bcrop%3B")}.g3{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view4.jpg?aio=w-192%3Bh-168%3Bcrop%3B")}.g4{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-project-large-image1.jpg?aio=w-724%3Bh-350%3Bcrop%3B")}.g5{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view1.jpg?aio=w-192%3Bh-168%3Bcrop%3B")}.g6{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view4.jpg?aio=w-192%3Bh-168%3Bcrop%3B")}.g7{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-project-large-image1.jpg?aio=w-724%3Bh-350%3Bcrop%3B")}.g8{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view1.jpg?aio=w-192%3Bh-168%3Bcrop%3B")}
+.home-hero-new{padding:28px 0 0;background:#f7f7f7}
+.hero-stage{height:680px;border-radius:24px;overflow:hidden;position:relative;background:#222;box-shadow:0 28px 70px rgba(0,0,0,.16)}
+.hero-photo{position:absolute;inset:0;background:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-project-large-image1.jpg?aio=w-724%3Bh-350%3Bcrop%3B") center/cover no-repeat;transform:scale(1.02)}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.34) 47%,rgba(0,0,0,.05) 100%),linear-gradient(0deg,rgba(0,0,0,.58),transparent 45%)}
+.hero-content{position:absolute;left:7%;top:18%;max-width:610px;color:#fff}
+.hero-kicker{font-size:10px;letter-spacing:.18em;font-weight:700;color:#fff;display:flex;align-items:center;gap:9px}
+.hero-kicker i{display:block;width:7px;height:7px;border-radius:50%;background:#d71920;box-shadow:0 0 0 5px rgba(215,25,32,.2)}
+.hero-content h1{font-size:78px;line-height:.96;letter-spacing:-.05em;font-weight:500;margin:24px 0 20px}
+.hero-content h1 strong{color:#fff}
+.hero-content p{font-size:16px;line-height:1.7;color:rgba(255,255,255,.82);max-width:530px}
+.hero-content .primary-btn{background:#d71920;border:1px solid #d71920;border-radius:9px;padding:14px 20px}
+.hero-content .primary-btn span,.hero-link span{margin-left:15px}
+.hero-link{font-size:12px;font-weight:600;color:#fff}
+.hero-stats{position:absolute;left:7%;bottom:0;display:flex;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-radius:16px 16px 0 0;overflow:hidden}
+.hero-stats div{min-width:125px;padding:17px 20px;border-right:1px solid #e5e5e5}
+.hero-stats div:last-child{border:0}
+.hero-stats b{display:block;font-size:20px;line-height:1.1}
+.hero-stats span{display:block;font-size:9px;color:#70757a;margin-top:4px;text-transform:uppercase;letter-spacing:.08em}
+.hero-caption{position:absolute;right:32px;bottom:25px;color:#fff;text-align:right;font-size:10px;letter-spacing:.22em;font-weight:700}
+.hero-caption span{font-weight:400;opacity:.75}
+.intro-strip{background:#fff;padding:65px 0;border-bottom:1px solid #e7e7e7}
+.intro-grid{display:grid;grid-template-columns:1.1fr 1.3fr 70px;gap:50px;align-items:center}
+.intro-grid h2{font-size:39px;line-height:1.08;letter-spacing:-.035em;margin:8px 0 0;font-weight:500}
+.intro-grid p{font-size:15px;color:#666b70;line-height:1.8;max-width:620px;margin:0}
+.circle-arrow{width:58px;height:58px;border:1px solid #ddd;border-radius:50%;display:grid;place-items:center;font-size:20px;color:#d71920;transition:.2s}
+.circle-arrow:hover{background:#d71920;color:#fff;border-color:#d71920;transform:rotate(8deg)}
+.services-section{background:#f7f7f7}
+.bento-grid{display:grid;grid-template-columns:1.4fr .8fr .8fr;grid-template-rows:260px 260px;gap:14px}
+.bento{position:relative;border-radius:18px;overflow:hidden;padding:25px;display:flex;flex-direction:column;justify-content:space-between;transition:.25s;min-width:0}
+.bento:hover{transform:translateY(-5px);box-shadow:0 20px 45px rgba(0,0,0,.12)}
+.bento>span,.bento-content>span{font-size:9px;font-weight:700;letter-spacing:.16em;opacity:.8}
+.bento h3{font-size:28px;line-height:1.08;font-weight:500;letter-spacing:-.025em;margin:10px 0 auto}
+.bento strong{font-size:11px;letter-spacing:.02em}
+.bento-large{grid-row:span 2}
+.bento-wide{grid-column:span 2}
+.bento-image{color:#fff}
+.bento-bg{position:absolute;inset:0;background-size:cover;background-position:center;transition:.4s}
+.bento:hover .bento-bg{transform:scale(1.05)}
+.bento-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.7))}
+.bento-content{position:relative;z-index:2;display:flex;flex-direction:column;height:100%}
+.facilities-bg{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view1.jpg?aio=w-192%3Bh-168%3Bcrop%3B")}
+.tower-bg{background-image:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-project-large-image1.jpg?aio=w-724%3Bh-350%3Bcrop%3B")}
+.bento-red{background:#d71920;color:#fff}
+.bento-red:after{content:"";position:absolute;width:180px;height:180px;border:1px solid rgba(255,255,255,.25);border-radius:50%;right:-50px;top:-45px}
+.bento-number{font-size:50px;line-height:1;font-weight:600;letter-spacing:-.06em;margin-top:auto;margin-bottom:12px}
+.bento-light{background:#fff;border:1px solid #e4e4e4}
+.mini-price{font-size:34px;font-weight:600;letter-spacing:-.04em;margin-top:auto;margin-bottom:10px}
+.mini-price small{font-size:10px;font-weight:400;color:#777}
+.bento-dark{background:#202124;color:#fff}
+.event-chip{margin-top:auto;margin-bottom:12px;font-size:11px;color:#ddd}
+.live-section{background:#fff}
+.live-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}
+.live-head h2{font-size:39px;line-height:1.05;font-weight:500;margin:8px 0 0}
+.live-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:14px}
+.live-card{border:1px solid #e4e4e4;border-radius:18px;padding:25px;background:#fff}
+.live-card-main{background:#171819;color:#fff;border-color:#171819}
+.live-top,.live-card-title{display:flex;align-items:center;gap:8px;font-size:9px;letter-spacing:.14em;font-weight:700}
+.live-time{margin-left:auto;color:#8e9296;font-weight:400;letter-spacing:0}
+.live-dot{width:7px;height:7px;background:#d71920;border-radius:50%;box-shadow:0 0 0 5px rgba(215,25,32,.15)}
+.live-big{display:flex;align-items:end;gap:14px;margin:48px 0 34px}
+.live-big b{font-size:78px;line-height:.8;font-weight:500;letter-spacing:-.06em}
+.live-big span{font-size:11px;color:#aeb1b4;max-width:120px;line-height:1.45}
+.live-bars>div{display:grid;grid-template-columns:100px 1fr 25px;align-items:center;gap:10px;margin:13px 0;font-size:9px;color:#aeb1b4}
+.live-bars i{height:4px;background:#34373a;border-radius:99px;overflow:hidden}
+.live-bars em{display:block;height:100%;background:#d71920;border-radius:99px}
+.live-bars b{font-size:10px;text-align:right;color:#fff}
+.live-card-title{justify-content:space-between;color:#666}
+.live-card-title a{color:#d71920;letter-spacing:0}
+.live-updates .update-card{padding:18px 0}
+.live-updates .update-card b{font-size:12px}
+.live-updates .update-card small{font-size:9px}
+.visual-break{height:520px;position:relative;overflow:hidden;color:#fff}
+.visual-break-bg{position:absolute;inset:0;background:url("https://static.squareyards.com/resources/images/thane/project-image/ajmera-crosstown-one-project-tower-view4.jpg?aio=w-192%3Bh-168%3Bcrop%3B") center/cover no-repeat;transform:scale(1.03)}
+.visual-break:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.75),rgba(0,0,0,.1))}
+.visual-break .container{height:100%;position:relative;z-index:2;display:flex;align-items:center}
+.visual-quote span{font-size:10px;letter-spacing:.2em;font-weight:700}
+.visual-quote h2{font-size:52px;line-height:1.02;font-weight:500;letter-spacing:-.04em;margin:14px 0 25px}
+.visual-quote a{font-size:11px;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
+.resident-tools{background:#f7f7f7}
+.tool-row{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+.tool-row a{padding:25px 22px;display:grid;grid-template-columns:38px 1fr;column-gap:15px;align-items:center;border-right:1px solid #ddd;transition:.2s}
+.tool-row a:last-child{border-right:0}
+.tool-row a:hover{background:#fff}
+.tool-row span{grid-row:span 2;width:36px;height:36px;border:1px solid #ddd;border-radius:50%;display:grid;place-items:center;color:#d71920}
+.tool-row b{font-size:12px}
+.tool-row small{font-size:9px;color:#777}
+@media(max-width:900px){.hero-stage{height:600px}.hero-content{left:5%;right:5%;top:13%}.hero-content h1{font-size:62px}.hero-stats{left:5%;right:5%}.hero-stats div{min-width:0;flex:1}.intro-grid{grid-template-columns:1fr;gap:18px}.circle-arrow{display:none}.bento-grid{grid-template-columns:1fr 1fr;grid-template-rows:240px 240px 240px}.bento-large{grid-row:span 2}.bento-wide{grid-column:span 2}.live-grid{grid-template-columns:1fr}.visual-break{height:430px}.tool-row{grid-template-columns:1fr 1fr}.tool-row a:nth-child(2){border-right:0}.tool-row a{border-bottom:1px solid #ddd}}
+@media(max-width:600px){.home-hero-new{padding-top:10px}.hero-stage{height:650px;border-radius:16px}.hero-content{top:12%}.hero-content h1{font-size:50px}.hero-content p{font-size:14px}.hero-actions{gap:15px}.hero-stats{display:grid;grid-template-columns:1fr 1fr;bottom:0;border-radius:14px 14px 0 0}.hero-stats div{padding:13px 15px}.hero-caption{display:none}.intro-strip{padding:45px 0}.intro-grid h2,.live-head h2{font-size:32px}.bento-grid{display:flex;flex-direction:column}.bento{min-height:220px}.bento-large{min-height:400px}.bento-wide{min-height:260px}.live-big{margin:35px 0}.visual-break{height:390px}.visual-quote h2{font-size:40px}.tool-row{grid-template-columns:1fr}.tool-row a{border-right:0}}
